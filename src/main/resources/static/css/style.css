@@ -1,0 +1,89 @@
+body{
+    background: linear-gradient(90deg, rgba(117,60,207,1) 43%, rgba(100,0,241,1) 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.form-wrap, #myprofile{
+    margin: 100px 10px;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 50px 30px;
+    background-color: white;
+}
+
+form > .field{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+form > div:first-of-type{
+    margin-top: unset;
+}
+
+form input{
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: 2px solid rgba(117,60,207,1);
+    outline-offset: 1px;
+    border: none;
+    color: #444;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0px 9999px white;
+}
+
+form > button, .btn-profile{
+    margin-top: 50px;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 10px;
+    border: unset;
+    background-color: rgba(100,0,241,1);
+}
+
+#myemail, #mypwd{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: 2px solid rgba(117,60,207,1);
+    outline-offset: 1px;
+    border: none;
+    color: #444;
+}
+
+.icon_edit{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(117,60,207,1);
+    transition: all .1s ease-out;
+}
+
+.icon_edit:hover{
+    transform: scale(1.1);
+}
+
+.fa-star-of-life{
+    font-size: 10px;
+    margin-right: 2px;
+}
+
+#edit-email, #edit-pwd{
+    display: flex;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.modal-edit{
+    max-width: 400px;
+    width: 100%;
+}

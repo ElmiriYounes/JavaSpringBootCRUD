@@ -1,0 +1,28 @@
+version: "3"
+services:
+  api_service:
+    build: .
+    image: spring_boot_app:17-jdk-slim
+    container_name: springboot
+    restart: always
+    ports: 
+      - 8080:8080
+    depends_on:
+      - mydb
+  mydb:
+    image: "postgres:13"
+    container_name: mydb
+    platform: ${TARGETPLATFORM}
+    restart: always
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_DB: crud
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_ROOT_PASSWORD: 1234
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
