@@ -9,10 +9,10 @@
 - [Explanation](#explanation)
 - [Run the Project](#run-the-project)
 - [Clone the Repo](#clone-the-repo)
-- [💬 Contact](#contact)
+- [Contact](#contact)
 
 
-## About-the-project 🚀
+## About-the-project
 
 This is a spring boot project building an server connected to a database postgresql allowing crud operations on his user account (register, login, update and delete).
 
@@ -35,7 +35,7 @@ You can use these urls:
 
 :warning: : you can use these urls after running the project with docker (see the next point "Run the project")
 
-## Run the project 🚀
+## Run the project
 Atfer cloning the repository, you just have to type the following 2 commands (in the root of the project):
 
     docker-compose build
@@ -65,13 +65,13 @@ Atfer cloning the repository, you just have to type the following 2 commands (in
     ```
 Restart the machine and verify with: docker --version
 
-## ⚡️ Clone the repo
+## Clone the repo
 
 * Clone the repository:
     ```gitbash
     git clone git@github.com:ElmiriYounes/JavaSpringBootCRUD.git
     ```
 
-## 💬 Contact
+## Contact
 
 El miri younes - elmiri.younes@hotmail.com
