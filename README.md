@@ -9,12 +9,12 @@
 - [Explanation](#explanation)
 - [Run the Project](#run-the-project)
 - [Clone the Repo](#clone-the-repo)
-- [Contact](#contact)
+- [💬 Contact](#contact)
 
 
 ## About-the-project 🚀
 
-This is a spring boot project building an server connected to a database postgresql allowing allowing crud operations on his user account (register, login, update and delete).
+This is a spring boot project building an server connected to a database postgresql allowing crud operations on his user account (register, login, update and delete).
 
 Using Thymeleaf for the frontend.
 
