@@ -33,6 +33,8 @@ You can use these urls:
 * https://localhost:8080/register to sign up
 * https://localhost:8080/ to access to your profile
 
+:warning: : you can use these urls after running the project with docker (see the next point "Run the project")
+
 ## Run the project 🚀
 Atfer cloning the repository, you just have to type the following 2 commands (in the root of the project):
 
